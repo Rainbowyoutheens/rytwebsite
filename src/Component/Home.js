@@ -3,7 +3,7 @@ import Navbar from "./Subcomponents/Navbar";
 import "../App.css";
 
 function Home() {
-  return <div>
+  return <div className="container">
     <Navbar />
     <section className="home">
       <h1>Hello World</h1>      
