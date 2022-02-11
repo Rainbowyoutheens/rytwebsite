@@ -1,16 +1,125 @@
 .App {
   text-align: center;
 }
-.home {
-  background-color: red;
+
+.view {height: 87vh}
+.navbar{background-color:rgba(0,0,0,.1)}
+
+.white-text {
+  color: whitesmoke;
 }
-.nav-bar {
+
+
+.nav-main {
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+
+.nav-content {
+  padding-top: 50vh;
+  color: whitesmoke;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+}
+.button {
+  color: whitesmoke;
+  background-color: rgba(14, 17, 19, 0.1);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;  
+  border: rgb(212, 137, 39) solid;
+  font-size: 20px;  
+}
+.button:hover {
+  background-color: rgb(238, 120, 65);
+}
+.wytp {
+  display: flex; 
+  justify-content: flex-end;
+}
+.wytp button {
+  background-color: rgb(223, 20, 20);
+  border-radius: 30px;
+  font-size: 20px;
+}
+.btn-1 {
+  color: white;
+  background-color: rgb(241, 175, 53);
+  padding: 10px 35px 10px 35px;
+  border-radius: 10px;  
+  color: whitesmoke;  
+  border: rgb(240, 183, 77) solid;
+  font-size: 20px;
+   
+}
+
+.section-1 {
+  width: 50%;
+  line-height: 45px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.section-2 {
+  height: 40%;
+  background-color: rgb(22, 22, 83);
+  padding-top: 30px;
   display: flex;
-  justify-content: space-between;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
-.nav-bar ul li {
-  align-items: flex-start;
+#icons {
+  display: flex;
+  justify-content: flex-end;  
 }
+.font-awesome {
+  padding-right: 15px;
+  font-size: 20px;
+}
+.button-bg {
+  margin: 30px 0 30px 0;
+}
+
+
+/*.view {height:100%}*/
+
+/*header {
+  background: url("../public/myImages/girls22.png");
+  height:
+}*/
+
+.underline {
+  height: 5px;
+  width: 24rem;
+  background-color: rgb(223, 26, 26);
+  margin-top: 2px;
+  margin-bottom: 30px; 
+  border-radius: 30px; 
+}
+.underline-1 {
+  height: 5px;
+  width: 10rem;
+  background-color: rgb(223, 26, 26);
+  margin-top: 0px;
+  margin-bottom: 30px; 
+  border-radius: 30px; 
+}
+.underline-2 {
+  height: 4px;
+  width: 55rem;
+  background-color: rgb(223, 26, 26);
+  margin-top: 0px;
+  margin-bottom: 30px; 
+  border-radius: 30px;   
+}
+
+.img-radius {
+  border-radius: 10px;
+}
+
+/*.page-footer,.top-nav-collapse{background-color:#1C2331}*/
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -18,16 +127,23 @@
   }
 }
 
-/*.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+  }
+}
+
+@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.App-header {
+  background-color: white;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}*/
+  color: rgb(8, 8, 8);
+}
 
 
 /*@keyframes App-logo-spin {
